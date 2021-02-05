@@ -40,6 +40,19 @@ li {
   position: relative;
 }
 
+.heading .wrapper .offset {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.heading .wrapper .text {
+  white-space: nowrap;
+  color: #e60023;
+}
+
 .grid-container {
   display: -webkit-box;
   display: -ms-flexbox;
